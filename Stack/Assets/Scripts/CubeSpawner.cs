@@ -22,7 +22,13 @@ public class CubeSpawner : MonoBehaviour
     cube.transform.position = transform.position;
         }
     }
-    
+    private void Update()
+{
+        if(Input.GetButtonDown("Jump"))
+        {
+            transform.Translate(0,1,0); 
+        }
+    }
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
