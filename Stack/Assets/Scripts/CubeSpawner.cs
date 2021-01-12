@@ -26,7 +26,7 @@ public class CubeSpawner : MonoBehaviour
 {
         if(Input.GetButtonDown("Jump"))
         {
-            transform.Translate(0,1,0); 
+            transform.Translate(0,0.1f,0); 
         }
     }
     private void OnDrawGizmos()

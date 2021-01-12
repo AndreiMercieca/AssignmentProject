@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
         {
         if(MovingCube.LastCube !=null)
         MovingCube.CurrentCube.Stop();
+        Debug.Log(MovingCube.CurrentCube.name);
         
         FindObjectOfType<CubeSpawner>().SpawnCube();
         }

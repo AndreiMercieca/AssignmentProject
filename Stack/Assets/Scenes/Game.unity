@@ -513,7 +513,7 @@ PrefabInstance:
     - target: {fileID: 5762894563083208260, guid: 6ff4f65a3416b494f891fc766d071980,
         type: 3}
       propertyPath: m_Name
-      value: MovingCube
+      value: MovingCube1
       objectReference: {fileID: 0}
     - target: {fileID: 5762894563083208260, guid: 6ff4f65a3416b494f891fc766d071980,
         type: 3}
